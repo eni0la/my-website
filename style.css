@@ -1,0 +1,277 @@
+/*sidebar*/ 
+aside #sidebar {
+    float: right;
+    width: 30px;
+    margin-top: 10px;
+}
+/*main-col*/
+article #main-col{
+    float: left;
+    width:65%;
+}
+.dark {
+    padding: 15pc;
+    background: #e8491d;
+    color: #ffffff;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    color: #e8491d;
+}
+.containers.header {
+    padding: 0 2em;
+    margin-top: 10px;
+    margin: auto;
+    overflow: hidden;
+    width: 700px;
+}
+
+.containers.header ul {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header{
+    background-image: url('https://images.vice.com/vice/images/content-images/2014/12/15/black-models-are-still-basically-nonpeople-to-the-worlds-fashion-mags-104-body-image-1418663270.jpg');
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: #e8491d, 3px, solid;
+    background-color: #38322d;
+    background-position: fixed;
+}
+header a {
+    color: #ffffff;
+    text-decoration:none;
+}
+nav {
+text-transform: uppercase;
+font-size: 16px;
+}
+
+header h1 {
+display: inline;
+padding:0 20px 0 20px;
+}
+header nav{
+float: right;
+margin-top: 10px;
+}
+header #branding h1 {
+    margin: 0;
+}
+header .highlight, header.current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+header a:hover{
+    color: #cccccc;
+    font-weight: normal;
+}
+#showcase{
+    min-height: 150px;
+    background-image: url("");
+    text-emphasis: center;
+    columns: #000000;
+}
+#showcase p{
+font-size: 15px; 
+text-align: center;   
+}
+#showcase h1{
+    margin: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#newsletter {
+    padding: 15px;
+    color: #000000;
+    background: #38322D;
+}
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+#newsletter input [type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+.button_1 {
+    height: 38px;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000000;
+    margin-top: 20px;
+    
+}
+.button_2 {
+    height: 50px;
+    border: 0;
+    padding-left: 30px;
+    padding-right:30px;
+    color: #fff;
+    margin-top: 6px;
+    margin-bottom: 30px;
+    background-color: #e8491d;
+}
+#boxes {
+    margin-top: 20px;
+}
+#boxes.box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+#boxes .box img{
+    width: 90px;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+#services {
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+aside #sidebar.quote {
+    width: 90%;
+    padding: 5px;
+}
+/*media queries*/
+@media (max-width: 768px) {
+}
+header #branding,header nav {
+float:none ;
+} 
+header nav li {
+    text-align: center;
+    width: 100%;
+}
+header {
+    padding-bottom: 20pc;
+}
+#showcase h1 {
+    margin-top: 40px;
+}
+aside #sidebar 
+article #main-col
+#boxes.box
+#newsletter h1,
+#newsletter form{
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+#newsletter button , quote button {
+    display: block;
+    width: 100%;
+}
+#newsletter form input[ type="email"], .quote input, quote textarea{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.quote {
+    padding: 10p , 0;
+    display: flex;
+}
+.column-layout{
+line-height: 1.65;
+padding: 20px 50px;
+display: flex;
+}
+
+section.features {
+    max-width:1300px; 
+    background-color: #fff;
+    margin: 40px auto 0 auto;
+
+}
+
+.main-column2{
+ flex: 1;
+ order: 2;
+}
+.sidebar-one{
+    flex: 1;
+    order: 1;
+}
+.sidebar-two{
+    flex: 1;
+    order: 3;
+}
+.call-outs-container {
+max-width: 1400px;
+margin: 40px auto 0 auto;
+}
+.call-out{
+padding: 20px;
+margin-bottom: 20px;
+flex-basis: 30% ;
+}
+.call-out:last-child {
+    margin-right: 0;
+}
+.call-out:nth-child(1) {background-color: #c0dbe2;}
+.call-out:nth-child(2) {background-color: #cdf1c3;}
+.call-out:nth-child(3) {background-color: #ccb9da;}
+ @media (min-width:900px){
+     .call-outs-container{
+         display: flex;
+         justify-content: space-between;
+     }
+ }
+ @media (max-width: 700px){
+
+     .ul {
+         display: flex;
+         border: 1px solid #000;
+         justify-content: space-between;
+     }
+ }
+ .fas {
+    color:#e8491d;
+    font-size: 100px;
+    background: #fff;
+    padding: 15px;
+    position: relative;
+    }
+    
+
+

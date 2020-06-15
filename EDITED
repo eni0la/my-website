@@ -1,0 +1,66 @@
+ <section id="newsletter">
+            <div class="container">
+                <h1> Subscribe to our Newsletter</h1>
+                <form action="process.php">
+                    <input type="email" placeholder="Enter email">
+                </form>       
+                <button type="submit" class="button_1">Subscribe</button>  
+            </section>
+                </div>
+             
+
+<section id="boxes">
+                    <div class="container"></div>
+                    <div class="box"></div> 
+                    <h3>Modelling</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error ducimus, repudiandae obcaecati explicabo natus minima nam. Provident, odio tempora nostrum, voluptas quaerat voluptates aliquid mollitia cumque et qui doloribus.</p>
+                    <div class="container"></div>
+                    <div class="box"></div>
+                    <h3>Modelling</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error ducimus, repudiandae obcaecati explicabo natus minima nam. Provident, odio tempora nostrum, voluptas quaerat voluptates aliquid mollitia cumque et qui doloribus.</p>
+                    <div class="container"></div>
+                    <div class="box"></div>
+                    <h3>Modelling</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error ducimus, repudiandae obcaecati explicabo natus minima nam. Provident, odio tempora nostrum, voluptas quaerat voluptates aliquid mollitia cumque et qui doloribus.</p>
+                    <div class="box">
+                    
+                        <h3>Modelling</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam vel, autem quae, provident, architecto incidunt dicta ducimus sed iure non? Iusto, nulla? Assumenda necessitatibus doloremque vitae voluptate? Dolorum, consequuntur.</p>
+                    </div>
+                </section>
+                <footer>
+                    <p>Modelling, Copyright &copy;2020</p>
+                </footer>
+                </div>
+                <article id="main.col">
+                    <h1 class="page-title">About Us</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab officia nam dolore a voluptatibus molestias perferendis incidunt, reprehenderit quis iure ut saepe cupiditate, maiores enim quaerat culpa facere doloremque ipsa!</p>
+                
+                <aside id="sidebar">
+                    <h3>What we do</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, vitae non! Sed nostrum voluptatem mollitia delectus quisquam, ratione consectetur optio nisi nesciunt vitae nulla earum enim ab facere! Iure, doloribus!</p>
+                </aside>
+            </article>
+              </div>
+           
+           <ul id="services">
+               <li>
+                   <h3>Website Design</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores veritatis ducimus, voluptates ad odit obcaecati. Nihil tempora dicta sequi voluptas totam nam, blanditiis ipsa mollitia? Earum enim maiores quibusdam optio.</p>
+               </li>
+               <li>
+                   <h3>Website Hosting</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium labore dolores quaerat doloribus quasi consequatur sapiente placeat. Omnis labore qui ullam animi! Odio molestiae totam eligendi, dolor beatae natus quod.</p>
+              </li>
+               <h3>Get a quote</h3>
+                
+                <form class="quote">
+                    <div>
+                        <label>Name</label><br>
+                        <input type="text" placeholder="Name">
+                    </div>
+                </form>
+                <button class="button_1"submit>Send</button>
+           </ul>
+    </body>
+</head> 
